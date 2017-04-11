@@ -12,7 +12,7 @@ Use our old friend `create-react-app` to create a react app.
 
 Let's create three components, `App.js`, `House.js`, and `HouseList.js`. Be sure to manage your state in App.js.  
 
-In `App.js`, create a function that grabs all of the firehouses and saves them in state. Let's also ceate a function that selects one firehouse and updates the state current firehouse.  
+In `App.js`, create a function that grabs all of the firehouses and saves them in state. We can find all of the firehouse data in the provided json file `data/firehouse.json`. Let's also ceate a function that selects one firehouse and updates the state current firehouse.  
 
 ## Step 3
 
