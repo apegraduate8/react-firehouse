@@ -34,8 +34,9 @@ console.log("this is H", H)
     return (
       <div className="App">
 
-      <House current={data} />
+
       <HouseList all={this.state.firehouse} change={this.changeMe.bind(this)}/>
+      <House current={data} />
       </div>
 
     );

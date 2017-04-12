@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5%;
 }
 
 .App-logo {
@@ -66,11 +70,16 @@
 
 .theHouse {
   letter-spacing: 1.5px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .theHouse:hover {
       color: black;
+}
+
+.single {
+  margin-top: 200px;
+  width: 400px;
 }
 
 

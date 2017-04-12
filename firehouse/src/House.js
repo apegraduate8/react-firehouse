@@ -12,7 +12,7 @@ export default class House extends Component {
         let borough = this.props.current.Borough;
 
     return(
-      <div>
+      <div className="single">
         <h1> {Fname}</h1>
           <h3> {Faddress} </h3>
           <p> {borough} </p>
